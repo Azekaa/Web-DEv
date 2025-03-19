@@ -1,0 +1,5 @@
+to open environment: myenv\Scripts\activate
+
+to create a new django project: django-admin startproject myproject
+
+to set the django server: python manage.py runserver
