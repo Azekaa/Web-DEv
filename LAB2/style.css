@@ -1,0 +1,186 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Lexend Giga", serif;
+}
+
+.wrapper{
+    background: rgb(226, 225, 225);
+    width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+.container{
+    float: left; 
+    margin-left: 490px;
+    margin-top: 20px;
+    width: 21%;
+    font-weight: 600;
+    padding-top: 40px;
+    
+    
+
+}
+.container h1{
+    font-family: 'Billabong ', cursive; 
+    color: blue;
+}
+a{
+    text-decoration: none   ;
+}
+.input{
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    padding: 15px 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(47, 47, 47);
+    border-radius: 10px;
+}
+input {
+    border: 1px solid #898989;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px 15px;
+    margin-top: 10px;
+    outline: none;
+}
+.wrapper input:focus {
+    border: 2px solid #0b29bc; 
+    box-shadow: 0 0 5px rgba(11, 41, 188, 0.5);
+}
+
+.input-box input::placeholder{
+    color: #898989;
+}
+.btn{
+    background-color: rgb(77, 130, 255);
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 800;
+}
+.forgot{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.registr{
+    padding-top: 20px;
+}
+.newac{
+    background-color: rgb(26, 180, 26);
+    color: #fff;
+    border: 0px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin: 50px ;
+
+}
+.foot{
+    font-size: 12px;
+    padding-top: 320px;
+    padding-left: 840px;
+}
+.foot a{
+    color: #000;
+    font-weight: 900;
+}
+.foot2{
+    font-size: 12px;
+    padding-left: 940px;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    
+}
+footer div{
+    width: 80%;
+    margin-left: 100px;
+}
+
+/* TASK 2 */
+.wrapper2{
+    width: 100%;
+    padding-top: 20px;
+    justify-items: center;
+}
+.imgIns{
+    position: absolute;
+    margin-left:100px ;
+}
+.insta{
+    
+    border: 0px;
+    width: 30%;
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(47, 47, 47);
+
+}
+.logo h1{
+    padding: 10px;
+    font-family: 'Great Vibes ', cursive; 
+            font-size: 41px; 
+            color: #000; 
+            text-align: center;
+}
+.insta .login input{
+    margin: 5px ;
+    text-align: center;
+    width: 90%;
+}
+
+.diva {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.diva::before,
+.diva::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000000; 
+    margin: 0 10px; 
+}
+
+.or {
+    font-size: 16px; 
+    color: #898989;
+    font-weight: 400; 
+}
+.rega{
+    text-align: center;
+
+}
+.rega a{
+    color: #52a3e0;
+}
+.for a{
+    color: #001479;
+}
+.reg{
+    margin-top: 12px;
+    border: 0px;
+    width: 30%;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(47, 47, 47);
+    margin-bottom: 12px;
+}
+.reg a{
+    font-weight: 800;
+    color: #52a3e0;
+}
+.textFoot{
+    margin-top: 20px;
+}
+

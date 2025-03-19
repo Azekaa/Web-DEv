@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user = new Object()
+        user = {
+            name: "Azeka",
+            age: 18
+        };
+        let key = prompt("What do you want to know about the user?");
+        alert(user[key]);
+        for(let key in user){
+            alert(key);
+            alert(user[key]);
+        }
+    </script>
+    
+</body>
+</html>
